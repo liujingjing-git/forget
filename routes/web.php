@@ -22,4 +22,4 @@ Route::get('WangJi','UserController@wangji');
 Route::get('FenXiang','UserController@fenxiang'); 
 Route::post('FenXiangDo','UserController@fenxiangdo'); 
 Route::get('GanQing','UserController@ganqing'); 
-
+Route::get('WenAan','UserController@wenan'); 

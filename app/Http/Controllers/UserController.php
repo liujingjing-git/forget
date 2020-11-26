@@ -19,6 +19,11 @@ class UserController extends Controller
     {
         return view('user/FeiXiang');
     }
+    public function wenan()
+    {
+        return view('user/WenAan');
+    }
+
     public function fenxiangdo()
     {
         $post = request()->except('_token');
